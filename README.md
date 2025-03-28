@@ -9,26 +9,41 @@ Repository back-end: [https://github.com/Giuliano1911/progetto_finale_backend](h
 ## Funzionalità
 
 Il PT può creare schede di allenamento e diete per i suoi clienti, inoltre può:
+
 · tenere traccia dei pagamenti dei clienti
+
 · creare o eliminare profili utente
+
 · vedere e rivedere lo storico delle schede e delle diete create in precedenza
+
 · aggiungere esercizi o alimenti al db
+
 · tenere traccia di tutti gli appuntamenti tramite un comodo calendario
+
 · partecipare alla chat di gruppo
 
 Gli utenti invece possono:
+
 · vedere le schede e diete del PT
+
 · aggiungere foto al proprio profilo
+
 · creare appuntamenti per check online in base agli orari disponibili
+
 · partecipare alla chat di gruppo
 
 ## Tecnologie utilizzate
 
 · Frontend: React Typescript, Bootstrap
+
 · Backend: Spring Boot
+
 · Autenticazione: JWT
+
 · ChatBot: AI Gemini 2.0 flash
+
 · ChatRoom: spring-boot-starter-websocket + SockJs e StompJs
+
 · Database: PostgreSQL
 
 Nella homepage è presente un ChatBot realizzato con AI Gemini 2.0 flash "trainata" a rispondere solo alle domande pertinenti ai servizi offerti dal PT.
